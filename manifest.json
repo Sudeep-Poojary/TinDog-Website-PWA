@@ -1,0 +1,22 @@
+{
+    "name":"TinDog",
+    "short_name":"TinDog",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"#FFE9D2",
+    "theme_color":"#FFE9D2",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src": "/images/TD-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/images/TD-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}
