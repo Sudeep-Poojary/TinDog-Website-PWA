@@ -1,10 +1,10 @@
 body {
-    font-family: "sans-serif";
+    font-family: 'Questrial', sans-serif;
     text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-weight: bold;
 }
 
@@ -17,6 +17,8 @@ p {
 .big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
+
+    font-family: 'Questrial', sans-serif;
 }
 
 .section-heading {
@@ -30,10 +32,17 @@ p {
     padding: 7% 15%;
 }
 
+.container-fluid-2 {
+    padding: 7% 15%;
+
+    display: flex;
+    justify-content: center;
+}
+
 /* Sections */
 
 .colored-section {
-    background-color: #ff4c68;
+    background: linear-gradient(to right, #ff4c68, #f3bac7);
     color: #fff;
 }
 
@@ -96,6 +105,22 @@ p {
 
 .feature-box {
     padding: 5%;
+    margin-right: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #ef8172;
+}
+
+.feature-box:hover {
+    padding: 5%;
+    margin-right: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #ff4c68;
 }
 
 .icon {
